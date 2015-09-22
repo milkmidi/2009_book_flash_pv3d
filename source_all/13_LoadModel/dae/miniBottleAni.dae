@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>milkmidi_Medialand</author>
+      <authoring_tool>Maya2008 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=1;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=1;exportCameraAsLookat=0;
+exportLights=1;exportCameras=1;exportJointsAndSkin=1;
+exportAnimations=1;exportTriangles=0;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=1;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=1;exportPhysics=1;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///D:/14--Maya/MiniBottle/scenes/bottleAni.mb</source_data>
+    </contributor>
+    <created>2008-12-29T07:21:45Z</created>
+    <modified>2008-12-29T07:21:45Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_animations>
+    <animation id="bottle.matrix">
+      <source id="bottle.matrix_bottle_transform-input">
+        <float_array id="bottle.matrix_bottle_transform-input-array" count="24">0.041666 0.083333 0.125 0.166667 0.208333 0.25 0.291667 0.333333 0.375 0.416667 0.458333 0.5 0.541667 0.583333 0.625 0.666667 0.708333 0.75 0.791667 0.833333 0.875 0.916667 0.958333 1</float_array>
+        <technique_common>
+          <accessor source="#bottle.matrix_bottle_transform-input-array" count="24" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+        <technique profile="MAYA">
+          <pre_infinity>CONSTANT</pre_infinity>
+          <post_infinity>CONSTANT</post_infinity>
+        </technique>
+      </source>
+      <source id="bottle.matrix_bottle_transform-output">
+        <float_array id="bottle.matrix_bottle_transform-output-array" count="384">1.0705 0 0 113.21 0 -0.039395 -0.99863 -51.8136 0 0.751717 -0.052336 67.6056 0 0 0 1 1.13863 0 0 120.324 0 -0.039395 -0.99863 -51.8136 0 0.751717 -0.052336 67.6056 0 0 0 1 1.21719 0 0 128.526 0 -0.039395 -0.99863 -51.8136 0 0.751717 -0.052336 67.6056 0 0 0 1 1.29574 0 0 136.727 0 -0.039395 -0.99863 -51.8136 0 0.751717 -0.052336 67.6056 0 0 0 1 1.36388 0 0 143.841 0 -0.039395 -0.99863 -51.8136 0 0.751717 -0.052336 67.6056 0 0 0 1 1.41118 0 0 148.779 0 -0.039395 -0.99863 -51.8136 0 0.751717 -0.052336 67.6056 0 0 0 1 1.42721 0 0 150.454 0 -0.039395 -0.99863 -51.8136 0 0.751717 -0.052336 67.6056 0 0 0 1 1.42163 0 0 149.871 0 -0.039395 -0.99863 -51.8136 0 0.751717 -0.052336 67.6056 0 0 0 1 1.41131 0 0 148.793 0 -0.039395 -0.99863 -51.8136 0 0.751717 -0.052336 67.6056 0 0 0 1 1.39672 0 0 147.27 0 -0.039395 -0.99863 -51.8136 0 0.751717 -0.052336 67.6056 0 0 0 1 1.37831 0 0 145.347 0 -0.039395 -0.99863 -51.8136 0 0.751717 -0.052336 67.6056 0 0 0 1 1.35654 0 0 143.074 0 -0.039395 -0.99863 -51.8136 0 0.751717 -0.052336 67.6056 0 0 0 1 1.33186 0 0 140.498 0 -0.039395 -0.99863 -51.8136 0 0.751717 -0.052336 67.6056 0 0 0 1 1.30475 0 0 137.667 0 -0.039395 -0.99863 -51.8136 0 0.751717 -0.052336 67.6056 0 0 0 1 1.27565 0 0 134.629 0 -0.040689 -0.99863 -51.937 0 0.776409 -0.052336 69.9616 0 0 0 1 1.24502 0 0 131.432 0 -0.041983 -0.99863 -52.0605 0 0.8011 -0.052336 72.3175 0 0 0 1 1.21332 0 0 128.122 0 -0.043277 -0.99863 -52.184 0 0.825791 -0.052336 74.6735 0 0 0 1 1.18102 0 0 124.749 0 -0.044571 -0.99863 -52.3075 0 0.850482 -0.052336 77.0295 0 0 0 1 1.14856 0 0 121.36 0 -0.045865 -0.99863 -52.4309 0 0.875173 -0.052336 79.3855 0 0 0 1 1.1164 0 0 118.003 0 -0.047159 -0.99863 -52.5544 0 0.899865 -0.052336 81.7415 0 0 0 1 1.08501 0 0 114.726 0 -0.048453 -0.99863 -52.6779 0 0.924556 -0.052336 84.0974 0 0 0 1 1.05484 0 0 111.576 0 -0.049747 -0.99863 -52.8013 0 0.949247 -0.052336 86.4534 0 0 0 1 1.02635 0 0 108.601 0 -0.051041 -0.99863 -52.9248 0 0.973938 -0.052336 88.8094 0 0 0 1 1 0 0 105.85 0 -0.052336 -0.99863 -53.0483 0 0.99863 -0.052336 91.1654 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#bottle.matrix_bottle_transform-output-array" count="24" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="bottle.matrix_bottle_transform-interpolations">
+        <Name_array id="bottle.matrix_bottle_transform-interpolations-array" count="24">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#bottle.matrix_bottle_transform-interpolations-array" count="24" stride="1">
+            <param name="INTERPOLATION" type="Name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="bottle.matrix_bottle_transform-sampler">
+        <input semantic="INPUT" source="#bottle.matrix_bottle_transform-input"/>
+        <input semantic="OUTPUT" source="#bottle.matrix_bottle_transform-output"/>
+        <input semantic="INTERPOLATION" source="#bottle.matrix_bottle_transform-interpolations"/>
+      </sampler>
+      <channel source="#bottle.matrix_bottle_transform-sampler" target="bottle/transform"/>
+    </animation>
+  </library_animations>
+  <library_physics_scenes>
+    <physics_scene id="MayaNativePhysicsScene">
+      <technique_common>
+        <gravity>0 -980 0</gravity>
+        <time_step>0.083</time_step>
+      </technique_common>
+    </physics_scene>
+  </library_physics_scenes>
+  <library_images>
+    <image id="file4" name="file4">
+      <init_from>./miniBottle.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="bottleMaterial" name="bottleMaterial">
+      <instance_effect url="#bottleMaterial-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="bottleMaterial-fx">
+      <profile_COMMON>
+        <newparam sid="file4-surface">
+          <surface type="2D">
+            <init_from>file4</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file4-sampler">
+          <sampler2D>
+            <source>file4-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file4-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float>0.3</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="bottleShape" name="bottleShape">
+      <mesh>
+        <source id="bottleShape-positions" name="position">
+          <float_array id="bottleShape-positions-array" count="60">-90.4118 -132.982 -49.8578 -98.469 -132.982 -61.3646 -97.6649 -87.8104 -63.089 -88.5164 -87.8104 -50.0236 -112.463 -132.982 -60.1403 -113.554 -87.8104 -61.6989 -118.399 -132.982 -47.4092 -120.295 -87.8104 -47.2433 -110.342 -132.982 -35.9024 -111.146 -87.8104 -34.1779 -96.3484 -132.982 -37.1267 -95.2571 -87.8104 -35.5681 -100.127 -78.8476 -53.1243 -99.7537 -78.8476 -44.4014 -108.816 -78.8476 -52.3652 -108.443 -78.8476 -43.6423 -100.127 -57.8537 -53.1243 -99.7537 -57.8537 -44.4014 -108.816 -57.8537 -52.3652 -108.443 -57.8537 -43.6423</float_array>
+          <technique_common>
+            <accessor source="#bottleShape-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="bottleShape-normals" name="normal">
+          <float_array id="bottleShape-normals-array" count="324">0.818608 -0.036454 -0.573195 0.818608 -0.036454 -0.573195 0.818608 -0.036454 -0.573195 0.818608 -0.036453 -0.573195 0.818608 -0.036453 -0.573195 0.818608 -0.036453 -0.573195 -0.087098 -0.036454 -0.995532 -0.087098 -0.036454 -0.995532 -0.087098 -0.036454 -0.995532 -0.087098 -0.036454 -0.995532 -0.087098 -0.036454 -0.995532 -0.087098 -0.036454 -0.995532 -0.905705 -0.036454 -0.422337 -0.905705 -0.036454 -0.422337 -0.905705 -0.036454 -0.422337 -0.905705 -0.036454 -0.422337 -0.905705 -0.036454 -0.422337 -0.905705 -0.036454 -0.422337 -0.818608 -0.036454 0.573195 -0.818608 -0.036454 0.573195 -0.818608 -0.036454 0.573195 -0.818608 -0.036454 0.573195 -0.818608 -0.036454 0.573195 -0.818608 -0.036454 0.573195 0.087098 -0.036454 0.995532 0.087098 -0.036454 0.995532 0.087098 -0.036454 0.995532 0.087097 -0.036454 0.995533 0.087097 -0.036454 0.995533 0.087097 -0.036454 0.995533 0.905705 -0.036454 0.422337 0.905705 -0.036454 0.422337 0.905705 -0.036454 0.422337 0.905705 -0.036454 0.422337 0.905705 -0.036454 0.422337 0.905705 -0.036454 0.422337 0 -1 -0.000000 0 -1 -0.000000 0 -1 -0.000000 0 -1 0.000002 0 -1 0.000002 0 -1 0.000002 0 -1 0 0 -1 0 0 -1 0 0 -1 -0.000001 0 -1 -0.000001 0 -1 -0.000001 0.615248 0.787894 -0.026328 0.615248 0.787894 -0.026328 0.615248 0.787894 -0.026328 -0.05903 0.734835 -0.675672 -0.05903 0.734835 -0.675672 -0.05903 0.734835 -0.675672 -0.059108 0.734889 -0.675607 -0.059108 0.734889 -0.675607 -0.059108 0.734889 -0.675607 -0.667244 0.67674 -0.311141 -0.667244 0.67674 -0.311141 -0.667244 0.67674 -0.311141 -0.607986 0.793522 0.026017 -0.607986 0.793522 0.026017 -0.607986 0.793522 0.026017 0.060762 0.715947 0.695505 0.060762 0.715947 0.695505 0.060762 0.715947 0.695505 0.060843 0.716004 0.695439 0.060843 0.716004 0.695439 0.060843 0.716004 0.695439 0.683351 0.65688 0.318652 0.683351 0.65688 0.318652 0.683351 0.65688 0.318652 0.999086 0 -0.042753 0.999086 0 -0.042753 0.999086 0 -0.042753 0.999086 0 -0.042753 0.999086 0 -0.042753 0.999086 0 -0.042753 -0.087033 0 -0.996205 -0.087033 0 -0.996205 -0.087033 0 -0.996205 -0.087033 0 -0.996205 -0.087033 0 -0.996205 -0.087033 0 -0.996205 -0.999086 0 0.042753 -0.999086 0 0.042753 -0.999086 0 0.042753 -0.999086 0 0.042753 -0.999086 0 0.042753 -0.999086 0 0.042753 0.087033 0 0.996205 0.087033 0 0.996205 0.087033 0 0.996205 0.087033 0 0.996205 0.087033 0 0.996205 0.087033 0 0.996205 0 1 0.000000 0 1 0.000000 0 1 0.000000 0 1 -0.000000 0 1 -0.000000 0 1 -0.000000 0.620238 0.653218 -0.434295 0.620238 0.653218 -0.434295 0.620238 0.653218 -0.434295 -0.623294 0.648867 0.436435 -0.623294 0.648867 0.436435 -0.623294 0.648867 0.436435</float_array>
+          <technique_common>
+            <accessor source="#bottleShape-normals-array" count="108" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="bottleShape-map1" name="map1">
+          <float_array id="bottleShape-map1-array" count="84">0.664028 0.008178 0.828516 0.008178 0.828794 0.472837 0.66425 0.472837 0.993005 0.008178 0.993338 0.472837 0.006074 0.008178 0.170562 0.008178 0.170618 0.472837 0.006074 0.472837 0.335051 0.008178 0.335162 0.472837 0.499539 0.008178 0.499706 0.472837 0.887311 0.977804 0.981558 0.814564 0.887311 0.651323 0.698817 0.651323 0.60457 0.814564 0.698817 0.977804 0.709389 0.626123 0.622988 0.626123 0.945391 0.626123 0.869967 0.626123 0.13262 0.626123 0.21443 0.626123 0.454854 0.626123 0.379748 0.626123 0.232197 0.714898 0.335701 0.714898 0.335701 0.979659 0.232197 0.979659 0.439075 0.714898 0.439075 0.979659 0.02532 0.714898 0.128824 0.714898 0.128824 0.979659 0.02532 0.979659 0.458874 0.840762 0.589649 0.840746 0.589649 0.971521 0.458874 0.971537</float_array>
+          <technique_common>
+            <accessor source="#bottleShape-map1-array" count="42" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="bottleShape-vertices">
+          <input semantic="POSITION" source="#bottleShape-positions"/>
+        </vertices>
+        <triangles material="blinn3SG" count="36">
+          <input semantic="VERTEX" source="#bottleShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#bottleShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#bottleShape-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 2 2 2 2 3 2 3 4 3 0 5 0 1 6 1 4 7 4 5 8 5 5 9 5 2 10 2 1 11 1 4 12 6 6 13 7 7 14 8 7 15 8 5 16 9 4 17 6 6 18 7 8 19 10 9 20 11 9 21 11 7 22 8 6 23 7 8 24 10 10 25 12 11 26 13 11 27 13 9 28 11 8 29 10 10 30 12 0 31 0 3 32 3 3 33 3 11 34 13 10 35 12 8 36 14 6 37 15 4 38 16 4 39 16 1 40 17 0 41 18 8 42 14 4 43 16 0 44 18 10 45 19 8 46 14 0 47 18 3 48 3 12 49 20 13 50 21 5 51 5 14 52 22 12 53 23 12 54 23 2 55 2 5 56 5 5 57 9 7 58 8 14 59 24 7 60 8 15 61 25 14 62 24 11 63 13 13 64 26 15 65 27 15 66 27 9 67 11 11 68 13 11 69 13 3 70 3 13 71 21 13 72 28 12 73 29 16 74 30 16 75 30 17 76 31 13 77 28 12 78 29 14 79 32 18 80 33 18 81 33 16 82 30 12 83 29 14 84 34 15 85 35 19 86 36 19 87 36 18 88 37 14 89 34 15 90 35 13 91 28 17 92 31 17 93 31 19 94 36 15 95 35 19 96 38 17 97 39 16 98 40 16 99 40 18 100 41 19 101 38 3 102 3 2 103 2 12 104 20 7 105 8 9 106 11 15 107 25</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="bottleAni">
+      <node id="bottle" name="bottle" type="NODE">
+        <matrix sid="transform">1.0705 0 0 113.21 0 -0.039395 -0.99863 -51.8136 0 0.751717 -0.052336 67.6056 0 0 0 1</matrix>
+        <instance_geometry url="#bottleShape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn3SG" target="#bottleMaterial">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>1</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_physics_scene url="#MayaNativePhysicsScene"/>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>
